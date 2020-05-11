@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title> Web Socket </title>
+    <script src="/socket.io/socket.io.js"></script>
+    <link href="index.css" rel="stylesheet" >
+</head>
+<body>
+
+    <h1> This is your server </h1>
+    <input type='text' id="myText" value="Hello"> </input>
+    <button id='send'>Send</button>
+    <br></br>
+	<button id='privateMsg'> Send Private </button> 
+    <p> Message received </p>
+    <p id="msgReceived"> </p>
+</body>
+<script src="./chat.js"></script>
+</html>
